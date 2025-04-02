@@ -1,0 +1,283 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3BAEAB;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: #333;
+    width: 100%;
+    position: fixed;
+    justify-content: flex-end;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    top: 0;
+    left: 0;
+    border-radius: 0px;
+    z-index: 1000; /* Ensure navbar is above other content */
+    margin-bottom: 5px;
+    max-width: 100%;
+    height: 50px;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+    
+    
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+
+
+nav a:hover {
+    background-color: #3BAEAB;
+}
+
+
+.divPage {
+    background-color: #3BAEAB;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: #333 0px 0px 10px;
+    margin-bottom: 0px;
+    position: relative;
+    max-width: 70%;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+#aboutMe {
+    margin-top: 80px; /* Adjust for fixed navbar */
+    display: grid;
+}
+
+#aboutMeContent{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+#profilePic {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    margin-right: 20px;
+    box-shadow: #333 0px 0px 10px;
+    
+}
+
+h1  {
+    color:#C42152 ;
+    text-align: center;
+    margin: auto;
+    font-size: 40px;
+}
+
+h3 {
+    color: brown;
+    font-size: 35px;
+}
+
+h4 {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+#CV {
+    text-decoration: none;
+    color: burlywood;
+    background-color: #C42152;
+}
+
+
+#CV:hover {
+    color: #C42152;
+    background-color: #333;
+}
+p {
+    color: beige;
+    font-size: 25px;
+    
+}
+h3 {
+    font-size: 40px;
+}
+ul {
+    color: beige;
+    font-size: 30px;
+    margin-left: 20px;
+    list-style: none;
+    line-height: 2;
+}
+#icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.projectItem {
+    text-align: center;
+}
+
+.projectsImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.projectTitle {
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: burlywood;
+    text-decoration: none;
+}
+
+.projectTitle:hover {
+    text-decoration: none;
+    background-color: #C42152;
+    display:block;
+        
+}
+
+#projectTitle:hover {
+    width: 300px;
+}
+
+.projectDescription {
+    font-size: 20px;
+    color: #601c1c;
+    margin-top: 10px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#others {
+    font-size: 20px;
+    color: #333;
+}
+
+
+   
+
+.contactList {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+    color: beige;
+    line-height: 2;
+}
+
+.contactList li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contactList i {
+    margin-right: 10px;
+    color: #C42152;
+    font-size: 24px;
+}
+
+.contactLink {
+    color: #C42152;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contactLink:hover {
+    text-decoration: underline;
+    background-color: #C42152;
+    color: white;
+    
+    border-radius: 5px;
+}
+ #fccIcon {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.footer {
+    background-color: #333;
+    color: beige;
+    text-align: center;
+    padding: 20px;
+    margin-top: 80px;
+    border-top: 2px solid #C42152;
+    position: relative;
+    width: 100%; /* Ensure the footer spans the full width */
+    left: 0;
+    bottom: 0;
+    margin: 0; /* Remove any default margins */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.footerLinks {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footerLinks li {
+    display: inline;
+}
+
+.footerLinks a {
+    color: #C42152;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footerLinks a:hover {
+    text-decoration: underline;
+    color: white;
+}
