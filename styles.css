@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #3BAEAB;
+    background-color: #29504f;
     margin-left: 100px;
     margin-right: 100px;
     padding: 20px;
@@ -280,4 +280,10 @@ ul {
 .footerLinks a:hover {
     text-decoration: underline;
     color: white;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
 }
