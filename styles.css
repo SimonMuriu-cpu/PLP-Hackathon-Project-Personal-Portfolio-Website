@@ -168,6 +168,7 @@ ul {
     font-weight: bold;
     color: burlywood;
     text-decoration: none;
+    max-width: fit-content;
 }
 
 .projectTitle:hover {
@@ -178,7 +179,7 @@ ul {
 }
 
 #projectTitle:hover {
-    width: 300px;
+    width: 200px;
 }
 
 .projectDescription {
